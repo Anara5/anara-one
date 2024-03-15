@@ -1,0 +1,61 @@
+.employee-details {
+    border-radius: 2rem;
+    text-align: left;
+}
+
+.detail-description {
+    margin: 1.5rem;
+}
+
+.detail-description h2 {
+    padding-left: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+.table-row {
+    display: flex;
+    align-items: center;
+}
+
+.table-header,
+.table-body {
+    padding: 0.5rem;
+}
+
+.table-header {
+    flex: 1;
+}
+
+.table-body {
+    flex: 2;
+}
+
+.table-header p,
+.table-body p {
+    margin: 0;
+    text-align: left;
+    flex: 1;
+}
+
+.table-header p {
+    color: black;
+}
+
+.table-body p {
+    color: #747474;
+}
+
+
+.desc-title {
+    color: black;
+}
+
+.desc-value {
+    color: #747474;
+}
